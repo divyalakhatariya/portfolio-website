@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Divya Lakhatariya</title>
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- main css file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!------------ header --------------->
+    <header id="header">
+        <div class="container">
+            <a href="#home" class="name">
+                Divya Lakhatariya
+            </a>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#home" class="menu_link active-link ">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#about" class="menu_link">About</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#resume" class="menu_link">Resume</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#portfolio" class="menu_link">Portfolio</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#contact" class="menu_link">Contact</a>
+                </li>
+                <ion-icon name="close-outline" class="close_icon"></ion-icon>
+            </ul>
+            <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+
+        </div>
+    </header>
+
+    <main>    
+        <!----------- home section------------>
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content">
+                    <h4> Hii there,</h4> 
+                    <h1>I'm 
+                        <span class="typed" data-typed-items="designer, developer, freelancer"></span>
+                    </h1>
+                    <p>
+                    I'm creative designer baces in New York, and I'm very passionate and dedicated to my work.
+                    </p>
+                    <div class="home_social">
+                        <a href="#"><ion-icon name="logo-dribbble"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    </div>
+                    <a href="#contact" class="btn">
+                        Read More
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+                <div class="home_img">
+                    <img src="https://i.pinimg.com/736x/14/63/64/1463646ef76b0664d6acbe4896cbddc8.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <!------------about section--------------->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+
+            <div class="about_container container grid">
+                <div class="about_img">
+                    <img src="https://static.vecteezy.com/system/resources/previews/003/857/436/original/girl-with-laptop-sitting-and-freelance-or-studying-concept-free-vector.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="about_content">
+                    <h1>I make professional and creative design.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolorum, quis, vero error impedit illum esse alias minus necessitatibus quod nihil harum explicabo! Perferendis, molestias harum corrupti laudantium ab ea!</p>
+                    <div class="about_info">
+                        <div>
+                            <span class="number">200</span>
+                            <br>
+                            <span class="text">Completed<br>projects</span>
+                        </div>
+                        <div>
+                            <span class="number">120</span>
+                            <br>
+                            <span class="text">positive<br>review</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!------------ Resume section --------------->
+        <section class="resume section" id="resume">
+            <h2 class="section_title">Resume</h2>
+
+            <div class="resume_container container grid">
+                <div class="resume_tabs">
+                    <ul>
+                        <li>
+                            <a href="#page-1" class="current">Education</a>
+                        </li>
+                        <li>
+                            <a href="#page-2">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#page-3">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#page-4">Awards</a>
+                        </li> 
+                    </ul>
+                </div>
+                <div class="resume_content">
+                    <!-- page1 -->
+                    <div id="page-1" class="page one">
+                        <div class="page_heading">Education</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <i class='bx bxs-graduation'></i>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2021-2024</span>
+                                <h4>Bachelor of Computer Applection</h4>
+                                <span class="position">
+                                    C.U Shah University
+                                </span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sequi nobis nisi sunt laudantium a nemo in architecto ad. Omnis sit aperiam id magnam debitis nam necessitatibus dolore at culpa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- page2 -->
+                    <div id="page-2" class="page two">
+                        <div class="page_heading">Experience</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <i class='bx bxs-briefcase' ></i>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2021-2024</span>
+                                <h4>Software developer</h4>
+                                <span class="position">
+                                    C.U Shah University
+                                </span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sequi nobis nisi sunt laudantium a nemo in architecto ad. Omnis sit aperiam id magnam debitis nam necessitatibus dolore at culpa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- page3 -->
+                    <div id="page-3" class="page three">
+                        <div class="page_heading">Skills</div>
+                        <div class="progressBoxes grid">
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>HTML</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>Css</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>Javascript</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>Jquery</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>Bootstrap</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>React js</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 70%;"></div>
+                                </div>
+                            </div> 
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>HTML</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>Css</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- page4 -->
+                    <div id="page-4" class="page four">
+                        <div class="page_heading">Award</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <i class='bx bxs-award' ></i>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2021-2024</span>
+                                <h4>Software developer</h4>
+                                <span class="position">
+                                    C.U Shah University
+                                </span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sequi nobis nisi sunt laudantium a nemo in architecto ad. Omnis sit aperiam id magnam debitis nam necessitatibus dolore at culpa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <!------------ Portfolio section --------------->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+
+            <div class="portfolio_container container">
+                <ul class="portfolio_filters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">App</li>
+                    <li data-filter=".filter-card">Card</li>
+                    <li data-filter=".filter-web">Web</li>
+                </ul>
+
+                <div class="portfolio_wrap-container">
+                    <div class="portfolio_item filter-web">
+                        <div class="portfolio_wrap">
+                            <img src="https://img.freepik.com/premium-vector/e-commerce-online-shopping-website-design_25147-95.jpg" alt="project ni img" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>web 3</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><box-icon name='plus'></box-icon></a>
+                                    <a href="#"><box-icon name='link'></box-icon></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="https://img.freepik.com/free-vector/landing-page-with-laptop_23-2148342640.jpg" alt="project ni img" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>App 1</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><box-icon name='plus'></box-icon></a>
+                                    <a href="#"><box-icon name='link'></box-icon></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="https://img.freepik.com/free-vector/news-concept-landing-page_52683-10655.jpg" alt="project ni img" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>App 2</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><box-icon name='plus'></box-icon></a>
+                                    <a href="#"><box-icon name='link'></box-icon></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_item filter-card">
+                        <div class="portfolio_wrap">
+                            <img src="https://img.freepik.com/free-vector/flat-search-landing-page-template_23-2148198257.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716595200&semt=ais_user" alt="project ni img" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>web 3</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><box-icon name='plus'></box-icon></a>
+                                    <a href="#"><box-icon name='link'></box-icon></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_item filter-card">
+                        <div class="portfolio_wrap">
+                            <img src="https://img.freepik.com/free-vector/happy-people-buying-clothes-online-t-shirt-percent-customer-flat-vector-illustration-e-commerce-digital-technology-concept-website-design-landing-web-page_74855-8344.jpg" alt="project ni img" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>web 3</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><box-icon name='plus'></box-icon></a>
+                                    <a href="#"><box-icon name='link'></box-icon></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_item filter-card">
+                        <div class="portfolio_wrap">
+                            <img src="https://img.freepik.com/free-vector/construction-landing-page-template_23-2148201939.jpg" alt="project ni img" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>web 3</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href="#"><box-icon name='plus'></box-icon></a>
+                                    <a href="#"><box-icon name='link'></box-icon></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!------------ Contact section --------------->
+
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+            <div class="contact_container container">
+                <div class="contact_content">
+                    <div class="inputs">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <input type="password" placeholder="Password">
+                    <textarea name="" id="" cols="30" roes="10" placeholder="Message"></textarea>
+                    <a href="#" class="btn">Send Message
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </section>        
+
+        <!--------------- footer ------------------->
+        <footer>
+            <div class="footer_bg">
+                <eiv class="footer_container container">
+                    <div class="main_footer">
+                        <div class="footer_social">
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        </div>
+                        <h3>LinkCode</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, nam rem expedita animi commodi tenetur eius id, quidem hic dolorum quisquam repellat doloremque nesciunt aspernatur? Quod in officia aliquam quibusdam.</p>
+                    </div>
+                    <div class="footer_copy">&#169; LinkCode. All right reserved</div>
+                </eiv>
+            </div>
+        </footer> 
+
+    </main>
+   
+     <!-- Mixitup -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    
+    <!-- type js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- main script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
