@@ -29,7 +29,7 @@ html{
 
 :root{
     --main-color:#8c8b87f7;/*all website color*/
-    --second-color:#ffe0c3ea;
+    --second-color:#e8e0d6;
     --title-color:#222;
     --subtitle-color:#8d8d8d;
 }
@@ -128,6 +128,7 @@ ul{
 }
 
 /************** header css *****************/
+
 header{
     position: fixed;
     width: 100%;
@@ -256,6 +257,7 @@ header .container{
 }
 
 /************** home section *****************/
+
 .home{
     padding-top: 114px;
     position: relative;
@@ -341,8 +343,12 @@ header .container{
         justify-content: center;
     }
     .home_content{
-        order: 2;
+        order: 1;
         text-align: center;
+    }
+    .home_img {
+        order: 2; 
+        text-align: center; 
     }
     .home_social{
         justify-content: center;
@@ -350,6 +356,7 @@ header .container{
 }
 
 /************** about  section *****************/
+
 .about_container{
     column-gap: 1;
     align-items: center;
@@ -414,6 +421,7 @@ header .container{
 }
 
 /************** resume section *****************/
+
 .resume_container{
     grid-template-columns: 1fr 5fr;
 }
@@ -585,12 +593,11 @@ header .container{
     .resume_wrap-content{
         width:100% ;
     }
-    .progressBoxs{
-        grid-template-columns: 1fr;
-    }
+  
 }
 
 /***************portfolio css********************/
+
 .portfolio_filters {
     display: flex;
     justify-content: center;
@@ -826,34 +833,3 @@ header .container{
     padding: 20px 0;
     color: #dbdbdb;
 }
-
-/* Footer Navigation Links */
-.main_footer ul {
-    list-style: none; 
-    padding: 0; 
-    margin: 20px 0; 
-  }
-  
-  .main_footer ul li {
-    display: inline-block; 
-    margin: 0 15px;
-  }
-  
-  .main_footer ul li a {
-    color: #fff; 
-    text-decoration: none; 
-    font-weight: bold; /* Bold text */
-    transition: color 0.3s; /* Smooth transition on hover */
-  }
-  
-  .main_footer ul li a:hover {
-    color: #0f0e0e; /* Change color on hover */
-  }
- 
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .main_footer ul li {
-      display: block; /* Stack list items vertically */
-      margin: 10px 0; /* Space between stacked items */
-    }
-  }
